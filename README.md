@@ -85,13 +85,13 @@ A responsive, modern, and feature-rich web application built with **Next.js**, *
 ### Running Storybook
 
 To view and test components in isolation, run Storybook:
-
-````bash
+```bash
 npm run storybook
+```
 
 Storybook will start and can be accessed at:
 ```bash
 http://localhost:6006
 
+```
 
-````
