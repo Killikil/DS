@@ -15,7 +15,7 @@ A responsive, modern, and feature-rich web application built with **Next.js**, *
 
 - **Error Handling**:
 
-  - Graceful error handling with placeholder messages for loading and API issues.
+  - Error handling with placeholder messages for loading and API issues.
 
 - **Responsive Design**:
   - Fully mobile-friendly using TailwindCSS.
@@ -85,13 +85,13 @@ A responsive, modern, and feature-rich web application built with **Next.js**, *
 ### Running Storybook
 
 To view and test components in isolation, run Storybook:
-
-````bash
+```bash
 npm run storybook
+```
 
 Storybook will start and can be accessed at:
 ```bash
 http://localhost:6006
 
+```
 
-````
