@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Home from "./Home";
 import { User } from "@/types/User";
 import UserTable from "../../organisms/UserTable/UserTable";
+import ErrorMessage from "@/app/atoms/ErrorMessage/ErrorMessage";
 
 const meta: Meta<typeof Home> = {
   component: Home,
@@ -63,7 +64,7 @@ const MockHome: React.FC = () => {
   }, []);
 
   if (loading) return <div>Loading...</div>;
-  if (error) return <div className="text-red-500">{error}</div>;
+  if (error) return <ErrorMessage message={error} />;
 
   return <UserTable users={users} />;
 };
@@ -77,5 +78,5 @@ export const Loading: Story = {
 };
 
 export const Error: Story = {
-  render: () => <div>Error: Failed to fetch users</div>,
+  render: () => <ErrorMessage message={"Error: Failed to fetch users"} />,
 };

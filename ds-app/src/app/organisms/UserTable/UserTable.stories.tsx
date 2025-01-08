@@ -4,7 +4,7 @@ import { User } from "@/types/User";
 
 const meta: Meta<typeof UserTable> = {
   component: UserTable,
-  title: "Components/UserTable",
+  title: "Organisms/UserTable",
 };
 
 export default meta;

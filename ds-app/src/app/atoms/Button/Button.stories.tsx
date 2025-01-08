@@ -4,6 +4,7 @@ import Button, { ButtonProps } from "./Button";
 
 const meta: Meta<typeof Button> = {
   component: Button,
+  title: "Atoms/Button",
 };
 
 export default meta;

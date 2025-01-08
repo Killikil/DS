@@ -4,6 +4,7 @@ import TopBar from "./TopBar";
 
 const meta: Meta<typeof TopBar> = {
   component: TopBar,
+  title: "Moleculs/TopBar",
 };
 
 export default meta;

@@ -3,6 +3,7 @@ import { fetchUsers } from "@/services/userService/userService";
 import { User } from "@/types/User";
 import React, { useEffect, useState } from "react";
 import UserTable from "../../organisms/UserTable/UserTable";
+import ErrorMessage from "@/app/atoms/ErrorMessage/ErrorMessage";
 
 const Home: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
@@ -24,7 +25,7 @@ const Home: React.FC = () => {
   }, []);
 
   if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
+  if (error) return <ErrorMessage message={error} />;
 
   return (
     <div>
