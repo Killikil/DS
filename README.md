@@ -9,9 +9,6 @@ A responsive, modern, and feature-rich web application built with **Next.js**, *
 - **User Table**:
   - Responsive, paginated, and sortable table displaying user data.
   - Global search and dynamic row count selection.
-- **Reusable Components**:
-
-  - `TopBar`: A navigation bar for consistent app-wide use.
 
 - **Error Handling**:
 
