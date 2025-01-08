@@ -15,7 +15,7 @@ A responsive, modern, and feature-rich web application built with **Next.js**, *
 
 - **Error Handling**:
 
-  - Graceful error handling with placeholder messages for loading and API issues.
+  - Error handling with placeholder messages for loading and API issues.
 
 - **Responsive Design**:
   - Fully mobile-friendly using TailwindCSS.
